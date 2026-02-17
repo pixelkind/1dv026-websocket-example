@@ -1,0 +1,29 @@
+{
+  "name": "1dv026-websocket-example",
+  "version": "1.0.0",
+  "description": "A simple WebSocket example for 1DV026",
+  "homepage": "https://github.com/pixelkind/1dv026-websocket-example#readme",
+  "bugs": {
+    "url": "https://github.com/pixelkind/1dv026-websocket-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelkind/1dv026-websocket-example.git"
+  },
+  "license": "MIT",
+  "author": "Garrit",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --inspect src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
